@@ -1,0 +1,37 @@
+:root {
+  /* Brand */
+  --forest-green: #003F3D;
+  --dark-teal: #005A57;
+  --primary-teal: #008F83;
+  --turquoise: #12C9B5;
+  --mint-green: #D8F4EB;
+
+  /* Backgrounds */
+  --page-bg: #F5F9FA;
+  --card-bg: #FFFFFF;
+  --soft-grey: #EAF3F4;
+  --border: #E4ECEF;
+
+  /* Typography */
+  --text-primary: #10242F;
+  --text-secondary: #647786;
+
+  /* Services */
+  --airtime: #00A77B;
+  --data: #1297F5;
+  --tv: #9125E8;
+  --electricity: #FFBA17;
+  --water: #F84C54;
+  --betting: #FF3268;
+  --education: #497EF5;
+
+  /* Status */
+  --success: #16B66D;
+  --danger: #E64B51;
+}
+
+/* Sidebar */
+/* background: linear-gradient(180deg, #004D49, #003B3A);
+
+/* Wallet balance card */
+/* background: linear-gradient(115deg, #003F3D, #008579); */
