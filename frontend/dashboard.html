@@ -13,7 +13,7 @@
 
 <body>
   <main class="dashboard">
-    <side class="side-bar">
+    <aside class="side-bar">
       <div class="logo-container">
         <img src="assets/images/tegora-T-Logo.png" alt="Tegora Logo" class="logo">
         <h3>Tegora</h3>
@@ -59,23 +59,344 @@
           <small>Settings</small>
         </a>
       </menu>
-    </side>
+    </aside>
+
 
     <section class="page">
-      <header class="user">
+      <div class="dashboard-details">
+        <div class="header-container">
+          <div class="left-side">
+            <h3>Good Morning, SHANIQUA</h3>
+            <p>Here's your account overview.</p>
+          </div>
+          <div class="right-side">
+            <div class="search-bar">
+              <span class="material-symbols-outlined">search</span>
+              <input type="search" placeholder="Search for people, bills or services...">
+            </div>
+            <span class="material-symbols-outlined">notifications</span>
+          </div>
+        </div>
 
-      </header>
+        <div class="sub-page-container">
+          <div class="transactions-container">
+            <div class="wallet-card">
+              <div class="wallet-balance">
+                <div>
+                  <p class="wb-text">Wallet Balance &#128065;</p>
+                  <h3 class="balance">₦245,750.00</h3>
+                  <div class="active-acct">
+                    <span class="material-symbols-outlined filled">
+                      fiber_manual_record
+                    </span>
+                    Active Account
+                  </div>
+                </div>
+                <div>
+                  <button class="add-money"><span class="addition">+</span> Add Money</button>
+                </div>
+              </div>
+              <div class="transaction-btns">
+                <button type="button" class="transaction-btn">
+                  <span class="material-symbols-outlined">send</span>
+                  <small>Send Money</small>
+                </button>
+                <a class="transaction-btn">
+                  <span class="material-symbols-outlined">download</span>
+                  <small>Receive Money</small>
+                </a>
+                <button type="button" class="transaction-btn">
+                  <span class="material-symbols-outlined">smartphone</span>
+                  <small>Buy Airtime</small>
+                </button>
+                <button type="button" class="transaction-btn">
+                  <span class="material-symbols-outlined">
+                    wifi
+                  </span>
+                  <small>Buy Data</small>
+                </button>
+              </div>
+            </div>
+            <div class="quick-services-container">
+              <div class="qs-header">
+                <h3 class="qs-text">Quick Services</h3>
+                <a href="#" view-all-link>View all</a>
+              </div>
+              <div class="qs-btns">
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">
+                    live_tv
+                  </span>
+                  <small>Pay TV</small>
+                </a>
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">
+                    lightbulb_2
+                  </span>
+                  <small>Electricity</small>
+                </a>
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">
+                    credit_score
+                  </span>
+                  <small>Credit Score</small>
+                </a>
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">
+                    currency_exchange
+                  </span>
+                  <small>Exchange Rates</small>
+                </a>
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">
+                    travel
+                  </span>
+                  <small>GR Travels</small>
+                </a>
+                <a class="qs-btn">
+                  <span class="material-symbols-outlined">receipt_long</span>
+                  <small>Pay Bills</small>
+                </a>
+              </div>
+            </div>
+            <div class="recent-transactions-container">
+              <div class="rt-header">
+                <h3 class="rt-text">Recent Transactions</h3>
+                <a href="#" view-all-link>View all</a>
+              </div>
+              <div class="recent-transactions">
+                <button type="button" class="transaction">
+                  <div class="t-left">
+                    <span class="material-symbols-outlined transfer-trans">send</span>
+                    <div class="t-details">
+                      <p>Transfer to Frank Oyibo</p>
+                      <small class="date">Today, 10:24 AM</small>
+                    </div>
+                  </div>
+                  <div class="t-right">
+                    <div class="t-amount-details">
+                      <p class="amount">- ₦10,000.00</p>
+                      <p class="status">Successful</p>
+                    </div>
 
-      <section class="user-transactions">
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </button>
+                <button type="button" class="transaction">
+                  <div class="t-left">
+                    <span class="material-symbols-outlined receive-trans">download</span>
+                    <div class="t-details">
+                      <p>Received from Tega Oyibo</p>
+                      <small class="date">Yesterday, 6:15 PM</small>
+                    </div>
+                  </div>
+                  <div class="t-right">
+                    <div class="t-amount-details">
+                      <p class="amount">+ ₦25,000.00</p>
+                      <p class="status">Successful</p>
+                    </div>
 
-      </section>
-      <section class="user-utils">
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </button>
+                <button type="button" class="transaction">
+                  <div class="t-left">
+                    <span class="material-symbols-outlined airtime-trans">smartphone</span>
+                    <div class="t-details">
+                      <p>Airtime Purchase</p>
+                      <small class="date">Sept. 12, 2026, 3:40 PM</small>
+                    </div>
+                  </div>
+                  <div class="t-right">
+                    <div class="t-amount-details">
+                      <p class="amount">- ₦1,000.00</p>
+                      <p class="status">Successful</p>
+                    </div>
 
-      </section>
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </button>
+                <button type="button" class="transaction">
+                  <div class="t-left">
+                    <span class="material-symbols-outlined data-trans">wifi</span>
+                    <div class="t-details">
+                      <p>Data Purchase</p>
+                      <small class="date">Sept. 10, 2026, 8:12 AM</small>
+                    </div>
+                  </div>
+                  <div class="t-right">
+                    <div class="t-amount-details">
+                      <p class="amount">- ₦2,500.00</p>
+                      <p class="status">Successful</p>
+                    </div>
 
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </button>
+                <button type="button" class="transaction">
+                  <div class="t-left">
+                    <span class="material-symbols-outlined  electricity-trans">lightbulb_2</span>
+                    <div class="t-details">
+                      <p>Electricity Bill</p>
+                      <small class="date">Sept. 8, 2026, 11:03 AM</small>
+                    </div>
+                  </div>
+                  <div class="t-right">
+                    <div class="t-amount-details">
+                      <p class="amount">- ₦5,000.00</p>
+                      <p class="status">Successful</p>
+                    </div>
 
+                    <span class="material-symbols-outlined">
+                      arrow_forward_ios
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="account-details">
+              <a class="acct-profile">
+                <div class="acct-name">
+                  <span class="material-symbols-outlined  person filled">person</span>
+                  <div>
+                    <p>Glory Rodrick</p>
+                    <small class="date">@shaniqua</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <span class="material-symbols-outlined arrow">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </a>
+              <span class="faint-line"></span>
+
+              <div class="acct-number-container">
+                <p>Account Number</p>
+                <div class="acct-number-subdiv">
+                  <h2 class="acct-number">
+                    810 7046 486
+                  </h2>
+                  <button class="copy-button">
+                    <span class="material-symbols-outlined copy–icon">
+                      content_copy
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <span class="faint-line"></span>
+
+              <a class="account-tier-container">
+                <p class="account-tier">Account Tier</p>
+                <h3 class="tier">
+                  <span class="material-symbols-outlined">
+                    counter_3
+                  </span>
+                  Verified
+                </h3>
+                <div class="icon">
+                  <span class="material-symbols-outlined arrow">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="get-more-card">
+              <div class="left-section">
+                <h3>Get more with</h3>
+                <h1>Tegora</h1>
+                <p>Shop globally, pay bills, send money and more — all in one app.</p>
+                <a href="#" class="explore-btn">Explore our Services ➜</a>
+              </div>
+              <div class="right-section">
+                <img src="assets/images/tegoralogo-on-phone.png">
+              </div>
+            </div>
+
+            <div class="spending-card">
+              <div class="spending-header">
+                <h3 class="spending-text">Spending Overview</h3>
+                <button class="month-btn">This Month <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                  </span></button>
+              </div>
+              <div class="spending">
+                <div class="spending-chart">
+                  <div class="chart-center">
+                    <small>Total Spent:</small>
+                    <strong>₦18,500</strong>
+                  </div>
+                </div>
+                <div class="transaction-computation">
+                  <div class="analysis-container">
+                    <span class="analysis">
+                      <span class="material-symbols-outlined filled">
+                        fiber_manual_record
+                      </span>
+                      Transfers
+                    </span>
+                    <span>40%</span>
+                  </div>
+                  <div class="analysis-container">
+                    <span class="analysis">
+                      <span class="material-symbols-outlined filled">
+                        fiber_manual_record
+                      </span>
+                      Airtime & Data
+                    </span>
+                    <span>25%</span>
+                  </div>
+                  <div class="analysis-container">
+                    <span class="analysis">
+                      <span class="material-symbols-outlined filled">
+                        fiber_manual_record
+                      </span>
+                      Bills
+                    </span>
+                    <span>20%</span>
+                  </div>
+                  <div class="analysis-container">
+                    <span class="analysis">
+                      <span class="material-symbols-outlined filled">
+                        fiber_manual_record
+                      </span>
+                      Other
+                    </span>
+                    <span>15%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="help-card">
+              <a class="help-link">
+                <span class="material-symbols-outlined help-icon">
+                  headset_mic
+                </span>
+                <div class="help-details">
+                  <h3>Need Help?</h3>
+                  <small class="date">Our support team is always ready to assist you.</small>
+                </div>
+                <div class="icon">
+                  <span class="material-symbols-outlined help-arrow">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
     </section>
-
 
   </main>
 
