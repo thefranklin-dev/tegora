@@ -549,7 +549,8 @@ textarea {
   color: #008F83;
 }
 
-.transaction .airtime-trans {
+.transaction .airtime-trans,
+.phone-icon {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tegora | Airtime & Data</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/buy-airtime-data.css" rel="stylesheet">
+  <link href="css/signup.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="page">
+    <aside class="side-bar">
+      <div class="logo-container">
+        <img src="assets/images/tegora-T-Logo.png" alt="Tegora Logo" class="logo">
+        <h3>Tegora</h3>
+      </div>
+
+      <menu class="side-menu-container">
+        <a class="side-menu">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+          <small>Dashboard</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">send</span>
+          <small>Send Money</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">download</span>
+          <small>Receive Money</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">smartphone</span>
+          <small>Airtime & Data</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">receipt_long</span>
+          <small>Pay Bills</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">history</span>
+          <small>Transactions</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">credit_card</span>
+          <small>Cards</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">person</span>
+          <small>Profile</small>
+        </a>
+        <a class="side-menu">
+          <span class="material-symbols-outlined">settings</span>
+          <small>Settings</small>
+        </a>
+      </menu>
+    </aside>
+
+
+    <div class="page-content-container">
+      <div class="header-container">
+        <div class="left-side">
+          <h3>Good Morning, SHANIQUA</h3>
+          <p>Send money to anyone, anywhere and anytime.</p>
+        </div>
+        <div class="right-side">
+          <div class="search-bar">
+            <span class="material-symbols-outlined">search</span>
+            <input type="search" placeholder="Search for people, bills or services...">
+          </div>
+          <span class="material-symbols-outlined">notifications</span>
+        </div>
+      </div>
+
+      <div class="transaction-parent-container">
+        <div class="transaction-section">
+          <div class="airtime-data-title">
+            <span class="material-symbols-outlined  phone-icon">smartphone</span>
+            <div>
+              <h2>Airtime & Data</h2>
+              <small class="date">Buy airtime or data for yourself or someone else.</small>
+            </div>
+          </div>
+
+          <div class="airtime-data-buttons">
+            <button type="button" class="buy-airtime">
+              <span class="material-symbols-outlined"> smartphone</span>
+              Buy Airtime
+            </button>
+            <button type="button" class="buy-data">
+              <span class="material-symbols-outlined  wifi-icon">wifi</span>
+              Buy Data
+            </button>
+          </div>
+
+          <p class="select-network-text">Select Network</p>
+
+          <div class="select-network-container">
+            <button class="network-provider">
+              <img src="assets/images/mtn-logo2.webp" alt="MTN Logo" class="network-logo">
+              MTN
+            </button>
+            <button class="network-provider">
+              <img src="assets/images/airtel-logo.webp" alt="Airtel Logo" class="network-logo">
+              Airtel
+            </button>
+            <button class="network-provider">
+              <img src="assets/images/Glo_Limited_Logo.png" alt="Glo Logo" class="network-logo">
+              Glo
+            </button>
+            <button class="network-provider">
+              <img src="assets/images/9Mobile-Logo.webp" alt="9mobile Logo" class="network-logo">
+              9mobile
+            </button>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <div class="input-wrapper phone-wrapper">
+              <button type="button" class="country">
+                <img src="assets/images/Flag_of_Nigeria.svg.webp" alt="" class="nigeria-flag">
+                <span>+234</span>
+                <span class="material-symbols-outlined">
+                  keyboard_arrow_down
+                </span>
+              </button>
+              <input type="tel" id="phone" name="phone" placeholder="801 234 5678" autocomplete="tel-national"
+                inputmode="numeric" required>
+
+              <button class="contacts">
+                <span class="material-symbols-outlined">
+                  contacts
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="amount">Amount (₦)</label>
+            <div class="input-wrapper">
+              <span class="naira-sign">
+                ₦
+              </span>
+              <input type="number" id="amount" name="amount" placeholder="500" autocomplete="amount" required>
+            </div>
+          </div>
+
+          <div class="amount-container">
+            <button type="button">₦100</button>
+            <button type="button">₦200</button>
+            <button type="button">₦500</button>
+            <button type="button">₦1,000</button>
+            <button type="button">₦2,000</button>
+            <button type="button">₦5,000</button>
+          </div>
+
+          <p>Buy for</p>
+
+          <div class="recipient-container">
+            <button type="button">
+              <span class="material-symbols-outlined">
+                person_heart
+              </span>
+              Myself
+            </button>
+            <button type="button">
+              <span class="material-symbols-outlined">
+                group
+              </span>
+              Someone else
+            </button>
+          </div>
+
+          <button type="submit" class="continue-btn">
+            <span class="material-symbols-outlined">
+              mobile_arrow_up_right
+            </span>
+            Continue to Review
+            <span class="material-symbols-outlined">
+              arrow_forward
+            </span>
+          </button>
+
+        </div>
+
+
+        <div class="relevant-details-section">
+          <div class="small-wallet-card">
+            <div class="small-wallet-balance">
+              <p class="small-wb-text">Wallet Balance &#128065;</p>
+              <h3 class="small-balance">₦245,750.00</h3>
+              <div class="small-active-acct">
+                <span class="material-symbols-outlined filled">
+                  fiber_manual_record
+                </span>
+                Active Account
+              </div>
+            </div>
+            <div class="add-money-container">
+              <button class="small-add-money">
+                <span class="small-addition">+</span> Add Money
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
